@@ -12,6 +12,26 @@ class Movie
         $this->title = $_title;
         $this->cast = $_cast;
     }
+
+    /**
+     * Get the value of voto
+     */ 
+    public function getVoto()
+    {
+        return $this->voto;
+    }
+
+    /**
+     * Set the value of voto
+     *
+     * @return  self
+     */ 
+    public function setVoto($voto)
+    {
+        $this->voto = $voto;
+
+        return $this;
+    }
 }
 
 $saloele120giornatedisodoma = new Movie ('salo e le 120 giornate di sodoma', 'giorgio cataldi');
